@@ -1,0 +1,114 @@
+
+/*Navigations Bar Style*/
+header {
+    position: relative;
+    padding: 10px;
+    height: 80px;
+    width: auto;
+    background-color: #d4b4a1;
+}
+
+#nav button {
+    float: right;
+    margin: 10px;
+    background-color: #d9d9d9;
+    font-family: "Irish Grover";
+    font-size: 18px;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+
+#nav h1 {
+    float: left;
+}
+
+/*Der Link im Button nach Aktion gestyled*/
+a {
+    display: block;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/*Haupt Text der jeweiligen Seite gestyled*/
+
+body {
+    text-align: center;
+    font-family: "Irish Grover";
+    background-color: #cabcab ;
+}
+
+/*Das große Bild auf der Startseite einzelnd gestyled*/
+.index_pic {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.index_pic > img {
+    width: 100%;
+    height: auto;
+}
+
+/*Die Überschrift mit verändertem Hintergrund*/
+.Ueberschrift_mit_farbhintergrund {
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+/*Die einzelnen Über Uns Vorstellungen in einer unsichtbaren Tabelle angeordnet*/
+/*
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+*/
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#impressumstext {
+    margin: 10vh;
+    font-size: 18px;
+}
+
+.bilder_galerie > img {
+    margin: 20px;
+}
+
+/*Der Button in der Fußnote gestyled*/
+button {
+    background-color: #d9d9d9;
+    font-family: "Irish Grover";
+    font-size: 18px;
+    padding: 9px 18px;
+    color: black;
+    border-radius: 5px;
+}
+
+/*Der Hintergrund der Fußleiste gestyled*/
+#footer {
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #d4b4a1;
+    padding: 10px;
+}
